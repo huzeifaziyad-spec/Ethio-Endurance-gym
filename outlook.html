@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ethio Endurance Gym</title>
+  <meta name="description" content="Ethio Endurance Gym — strength, conditioning, and community. Join today." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAV -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Ethio Endurance home">
+        <span class="logo"></span>
+        <span>Ethio<span style="color:var(--accent)">Endurance</span> Gym</span>
+      </a>
+      <nav class="menu" aria-label="Primary">
+        <a href="#classes">Classes</a>
+        <a href="#features">Why Us</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="btn mobile-toggle" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+    </div>
+    <div id="mobileMenu" hidden class="container" style="padding-bottom:14px">
+      <div style="display:grid; gap:12px">
+        <a href="#classes">Classes</a>
+        <a href="#features">Why Us</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="container hero">
+    <div class="hero-copy">
+      <span class="chip">
+        <!-- dumbbell icon -->
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 10h2v4H3v-4Zm16 0h2v4h-2v-4ZM7 7h2v10H7V7Zm8 0h2v10h-2V7Zm-6 5h6v2H9v-2Z" fill="currentColor"/></svg>
+        Stronger Every Day
+      </span>
+      <h1>Lift. Sweat. <span style="background:linear-gradient(135deg,var(--accent),var(--accent-2)); -webkit-background-clip:text; background-clip:text; color:transparent">Evolve.</span></h1>
+      <p>Premium black & green aesthetic, elite equipment, and science-backed coaching. Your goals, our mission.</p>
+      <div class="ctas">
+        <a href="#pricing" class="btn" aria-label="View membership plans">Join Now</a>
+        <a href="#classes" class="btn ghost" aria-label="Explore classes">Explore Classes</a>
+      </div>
+
+      <div class="statrow">
+        <div class="stat"><b>50+</b><div class="meta">Weekly Classes</div></div>
+        <div class="stat"><b>24/7</b><div class="meta">Access</div></div>
+        <div class="stat"><b>4.9★</b><div class="meta">Member Rating</div></div>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="hero-card">
+        <h3 style="margin:0 0 8px">Starter Offer</h3>
+        <p class="sub" style="margin:0 0 12px">First month <b style="color:var(--accent)">50% off</b> + free PT session.</p>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px">
+          <div class="card" style="box-shadow:none">
+            <div class="thumb" style="aspect-ratio: 4/3"><img class="img" src="https://i.pinimg.com/736x/aa/9d/f0/aa9df0e5f4abb05dee262c08356b64d1.jpg"></div>
+            <div class="body"><div class="title">HIIT Burn</div><div class="meta">30 min fat-blast</div></div>
+          </div>
+          <div class="card" style="box-shadow:none">
+            <div class="thumb" style="aspect-ratio: 4/3"><img class="img" src="https://i.pinimg.com/736x/53/9f/99/539f992e22d45ccfd14f1112af92580f.jpg"></div>
+            <div class="body"><div class="title">Power Lift</div><div class="meta">Compound focus</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="blob" aria-hidden="true"></div>
+    </div>
+  </main>
+
+  <!-- CLASSES -->
+  <section id="classes">
+    <div class="container">
+      <h2>Popular Classes</h2>
+      <p class="sub">Build muscle, torch fat, and improve mobility — pick a path or mix & match.</p>
+      <div class="grid cards">
+        <article class="card">
+          <div class="thumb"><img class="img-2" src="https://i.pinimg.com/1200x/82/a4/eb/82a4eb60bfd7bd111e4bb9ffbe1ca73e.jpg"></div>
+          <div class="body"><h3 class="title">Engine & Endurance</h3><p class="meta">Hybrid athletics for functional capacity</p></div>
+        </article>
+        <article class="card">
+          <div class="thumb"><img class="img-2" src="https://i.pinimg.com/1200x/f6/52/ea/f652ea841ae7bf9e0c355146c8a8156f.jpg"></div>
+          <div class="body"><h3 class="title">Powerlifting</h3><p class="meta">Squat, bench, deadlift cycles</p></div>
+        </article>
+        <article class="card">
+          <div class="thumb"><img class="img-2" src="https://i.pinimg.com/736x/02/eb/d3/02ebd393bab869a0c904cd22a35a168d.jpg"></div>
+          <div class="body"><h3 class="title">Mobility & Core</h3><p class="meta">Restore range & resilience</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" style="background: var(--bg-2)">
+    <div class="container">
+      <h2>Why Train With Us</h2>
+      <p class="sub">High-performance space, welcoming culture.</p>
+      <div class="grid features">
+        <div class="feature">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 6h18v2H3V6Zm2 4h14l-2 8H7l-2-8Zm4 10h6v2H9v-2Z"/></svg>
+          <div><b>Elite Equipment</b><div class="meta">Rogue racks, Eleiko bars, Wattbikes</div></div>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7Zm0 9a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>
+          <div><b>Prime Location</b><div class="meta">Secure parking + 24/7 access</div></div>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 4a8 8 0 1 1-7.996 8.53A6 6 0 0 0 12 4Z"/></svg>
+          <div><b>Coaching That Cares</b><div class="meta">Certified coaches with real results</div></div>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 6h16v2H4V6Zm0 5h16v2H4v-2Zm0 5h10v2H4v-2Z"/></svg>
+          <div><b>Smart Programming</b><div class="meta">Periodized plans for all levels</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="container">
+      <h2>Membership Plans</h2>
+      <p class="sub">Simple, transparent pricing. Pause or cancel anytime.</p>
+      <div class="grid pricing">
+        <div class="price-card">
+          <h3>Basic</h3>
+          <div class="price">$29<span style="font-size:14px">/mo</span></div>
+          <ul class="ben">
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> 24/7 Gym Access</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Locker & Showers</li>
+            <li style="opacity:.6"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 6 7 17l-5-5 1.41-1.41L7 14.17 16.59 4.59 18 6z"/></svg> Classes (Add-on)</li>
+          </ul>
+          <button class="btn" data-plan="Basic">Choose Basic</button>
+        </div>
+        <div class="price-card pop">
+          <h3>Plus</h3>
+          <div class="price">$49<span style="font-size:14px">/mo</span></div>
+          <ul class="ben">
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> All Classes</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> 1 PT Session / mo</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Sauna Access</li>
+          </ul>
+          <button class="btn" data-plan="Plus">Choose Plus</button>
+        </div>
+        <div class="price-card">
+          <h3>Pro</h3>
+          <div class="price">$79<span style="font-size:14px">/mo</span></div>
+          <ul class="ben">
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Unlimited PT</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Competition Prep</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Recovery Lab</li>
+          </ul>
+          <button class="btn" data-plan="Pro">Choose Pro</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section id="schedule" style="background:var(--bg-2)">
+    <div class="container">
+      <h2>Weekly Schedule</h2>
+      <p class="sub">Tap a row to add to your calendar.</p>
+      <div class="table-wrap">
+        <table class="table" aria-describedby="Week timetable">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Class</th>
+              <th>Coach</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody id="scheduleBody">
+            <tr data-class="HYROX Engine"><td>Mon</td><td>HYROX Engine</td><td>Sam</td><td>06:30</td></tr>
+            <tr data-class="Power Lift"><td>Tue</td><td>Power Lift</td><td>Mo</td><td>18:00</td></tr>
+            <tr data-class="Mobility Flow"><td>Wed</td><td>Mobility Flow</td><td>Ada</td><td>07:15</td></tr>
+            <tr data-class="HIIT Burn"><td>Thu</td><td>HIIT Burn</td><td>Lina</td><td>19:00</td></tr>
+            <tr data-class="Open Gym"><td>Fri</td><td>Open Gym</td><td>—</td><td>Anytime</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container testi-wrap">
+      <h2>Member Stories</h2>
+      <p class="sub">Real results from our community.</p>
+      <div class="testi" aria-label="Testimonials carousel">
+        <article class="tcard">
+          <p>“Dropped 7kg and hit my first double-bodyweight deadlift. Coaching is next level.”</p>
+          <div class="who">
+            <div class="logo" style="width:26px; height:26px"></div>
+            <span>Nur, Software Engineer</span>
+          </div>
+        </article>
+        <article class="tcard">
+          <p>“The vibe is welcoming, the gear is elite, and the programming makes sense.”</p>
+          <div class="who">
+            <div class="logo" style="width:26px; height:26px"></div>
+            <span>Hanna, Student</span>
+          </div>
+        </article>
+        <article class="tcard">
+          <p>“Best black & green aesthetic gym in town. I actually look forward to training.”</p>
+          <div class="who">
+            <div class="logo" style="width:26px; height:26px"></div>
+            <span>Abel, Designer</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" style="background:var(--bg-2)">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p class="sub">Book a free tour or ask anything.</p>
+      <form id="contactForm" novalidate>
+        <div class="grid" style="grid-template-columns: 1fr 1fr">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+        </div>
+        <div class="grid" style="grid-template-columns: .6fr .4fr">
+          <div class="field">
+            <label for="goal">Your Goal</label>
+            <select id="goal" name="goal">
+              <option>Lose Fat</option>
+              <option>Build Muscle</option>
+              <option>Get Strong</option>
+              <option>Move Better</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="phone">Phone (optional)</label>
+            <input id="phone" name="phone" placeholder="+251…" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="msg">Message</label>
+          <textarea id="msg" name="message" rows="4" placeholder="Tell us about your training history…"></textarea>
+        </div>
+        <div style="display:flex; gap:12px; align-items:center">
+          <button class="btn" type="submit">Send Message</button>
+          <span id="formStatus" class="sub" role="status" aria-live="polite"></span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container foot">
+      <div>
+        <div class="brand" style="margin-bottom:10px"><span class="logo"></span><span>Ethio<span style="color:var(--accent)">Endurance</span> Gym</span></div>
+        <p class="sub">Copyright © <span id="year"></span> Ethio Endurance Gym. All rights reserved.</p>
+        <div class="social" aria-label="Social links">
+          <a href="#" aria-label="Instagram"> 
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm6.5-.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4Z"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.4-1.2 1.7-2.1-.8.5-1.7.8-2.6 1-1.6-1.6-4.2-1.5-5.7.2-1 1-1.4 2.5-1 3.8-3.3-.2-6.4-1.7-8.5-4.2-1.1 1.8-.6 4.1 1.1 5.3-.6 0-1.2-.2-1.8-.5 0 2.1 1.5 3.9 3.5 4.3-.6.2-1.3.3-2 .1.6 1.9 2.4 3.2 4.4 3.2-1.7 1.3-3.7 2-5.9 2-.4 0-.8 0-1.2-.1 2.1 1.4 4.5 2.1 7 2.1 8.4 0 13-7 13-13v-.6c.9-.6 1.6-1.3 2.2-2.1Z"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 7.5a4 4 0 0 0-2.8-2.8C18.8 4 12 4 12 4s-6.8 0-8.7.7A4 4 0 0 0 .5 7.5 41 41 0 0 0 0 12a41 41 0 0 0 .5 4.5 4 4 0 0 0 2.8 2.8C5.2 20 12 20 12 20s6.8 0 8.7-.7a4 4 0 0 0 2.8-2.8 41 41 0 0 0 .5-4.5 41 41 0 0 0-.5-4.5ZM9.7 15.3V8.7L15.5 12l-5.8 3.3Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a class="sub" href="#">About</a><br>
+        <a class="sub" href="#">Careers</a><br>
+        <a class="sub" href="#">Press</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a class="sub" href="#">FAQs</a><br>
+        <a class="sub" href="#">Contact</a><br>
+        <a class="sub" href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
